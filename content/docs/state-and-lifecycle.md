@@ -410,7 +410,7 @@ Then you can update them independently with separate `setState()` calls:
   }
 ```
 
-The merging is shallow, so `this.setState({comments})` leaves `this.state.posts` intact, but completely replaces `this.state.comments`.
+The merging is shallow, so `this.setState({comments})` leaves `this.state.posts` infact, but completely replaces `this.state.comments`.
 
 ## The Data Flows Down
 
